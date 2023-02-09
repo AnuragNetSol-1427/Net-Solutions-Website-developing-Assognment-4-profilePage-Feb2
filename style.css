@@ -1,0 +1,261 @@
+:root {
+    --blue: #4267B2;
+    --bg-grey: #EAEBEF;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.nav-container{
+    background: var(--blue);
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.logoAndSearch{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 470px;
+}
+
+#logo{
+    width: 50px;
+    border: 1px solid black; /* Border is given intentionally */
+    border-radius: 50px;
+}
+#searchInput{
+    padding: 5px;
+    width: 400px;
+}
+.searchAndButtons{
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.buttons{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
+.profile_pic{
+    width: 25px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.button{
+    padding: 17px;
+    color: white;
+    font-size: 17px;
+}
+
+.icons{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.icon{
+    padding: 15px;
+    font-size: 18px;
+}
+
+/* Main Content */
+.main-content{
+    border: 1px solid black;
+    background: var(--bg-grey);
+    display: flex;
+    height: 94vh;
+}
+
+.sidebar{
+    width: 12%;
+    /* border: 1px solid black;     */
+}
+.sidebar_pic{
+    /* border: 1px solid red;    */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar_name{
+    /* border: 1px solid red; */
+    display: flex;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.blue-tick{
+    margin-left: 10px;
+}
+
+#blue_tick{
+    width: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messiProfile{
+    border-radius: 65px;
+    height: 130px;
+    width: 138px;
+    border: 1px solid black;
+}
+
+.username{
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 40px;
+    align-items: center;
+    padding: 5px;
+    font-size: 18px;
+    color: grey;
+}
+
+.sidebar-links{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+.link{
+    /* border: 1px solid red; */
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 35px;
+    width: 180px;
+    cursor: pointer;
+}
+.link:hover{
+    padding: 10px;
+}
+.green-btn{
+    background: #40B82D;
+    color: white;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;   
+    margin-top: 17px;
+    margin-left: 40px;
+}
+
+.content{
+    width: 88%;
+    /* border: 1px solid black;   */
+    display: flex;  
+    justify-content: center;
+    /* align-items: center;
+    flex-direction: column; */
+}
+.content-container{
+    /* border: 1px solid red; */
+}
+
+.likeShareUseAppButtons{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    padding: 7px;
+
+}
+.likeShare{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.like{
+    /* border: 1px solid black; */
+    margin: 5px;
+    font-size: 18px;
+    background: var(--bg-grey);
+    padding: 7px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.useAppButton{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    color: white;
+    padding: 7px;
+    width: 500px;
+    cursor: pointer;
+}
+
+#banner_img{
+    width: 1440px;
+    height: 370px;
+}
+
+.photos{
+    /* display: flex;    */
+    /* border: 1px solid black; */
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.foto-heading{
+    font-size: 18px;
+    background: white;
+    padding: 7px;
+}
+.foto{
+    margin-bottom: 7px;
+}
+.foto-photo{
+    display: flex;
+}
+.post-foto{
+    height: 300px;
+}
+.fotos{
+    display: flex;
+    flex-direction: column;
+}
+.fotos img{
+    height: 150px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.post2{
+    margin-bottom: 2px;
+}
+.post3{
+    height: 140px;
+}
+.posting-foto{
+    height: 100px;
+}
